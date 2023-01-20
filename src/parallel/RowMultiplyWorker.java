@@ -1,7 +1,5 @@
 package parallel;
 
-import java.util.Arrays;
-
 public class RowMultiplyWorker implements Runnable {
     private final double[][] result;
     private double[][] matrixA;
